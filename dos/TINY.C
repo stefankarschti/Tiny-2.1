@@ -1365,14 +1365,17 @@ static int ui_main(void)
 
 int main(int argc, char **argv)
 {
-    int i, plain = 0;
+    int i;
+#ifdef __TURBOC__
+    int plain = 0;
+#endif
 
     for (i = 1; i < argc; i++) {
         if (argv[i][0] >= '0' && argv[i][0] <= '9')
             creativity = argv[i][0] - '0';
+#ifdef __TURBOC__
         else if (is_word(argv[i], "/p") || is_word(argv[i], "-p"))
             plain = 1;
-#ifdef __TURBOC__
         else if (is_word(argv[i], "/demo") || is_word(argv[i], "-demo"))
             demo = 1;
         else if (is_word(argv[i], "/dump"))
