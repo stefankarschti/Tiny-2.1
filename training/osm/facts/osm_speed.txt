@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Key:maxspeed
+# Source: https://wiki.openstreetmap.org/wiki/Key:maxspeed
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what does maxspeed mean | what does osm maxspeed describe | is maxspeed the usual speed of traffic | is maxspeed a recommended driving speed => It records the legal maximum speed, not a suggested speed.
+what unit does maxspeed use by default | maxspeed without a unit means what | which units apply to a bare speed number | does maxspeed default to km/h => Without a unit, maxspeed is in kilometres per hour.
+how do i tag a 30 mph speed limit | record thirty miles per hour in osm | a sign says 30 mph how do i enter it | what tag means a speed limit of 30 mph => Use maxspeed=30 mph, including the unit.
+what does maxspeed=none mean | explain maxspeed=none | does none indicate an absent numeric speed cap | does maxspeed=none mean the speed is unknown => It means no fixed numeric speed limit, not an unknown limit.
+what if i do not know the speed limit | should i guess a maxspeed value | i could not verify the speed limit what now | how do i tag an unknown speed limit => Leave maxspeed unset until the limit is verified.

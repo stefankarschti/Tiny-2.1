@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Key:opening_hours
+# Source: https://wiki.openstreetmap.org/wiki/Key:opening_hours
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+which key records business hours | how do i tag opening times | where do shop opening times belong | what tag stores a shop schedule => Use opening_hours on the feature.
+what does Mo-Fr mean in opening hours | explain Mo-Fr in opening_hours | how is the working week written in opening hours | which days does Mo-Fr cover => Monday through Friday.
+how do i tag weekday hours from nine to five | opening hours weekdays 9 to 17 | shop opens 9am to 5pm every weekday | what tag means open Monday to Friday 9 to 5 => Use opening_hours=Mo-Fr 09:00-17:00.
+what does PH mean in opening hours | explain PH in opening_hours | which code means public holidays in a schedule | which holidays does PH stand for => Public holidays.
+how do i mark public holiday closure | closed on public holidays in opening_hours | the shop shuts on holidays how do i record that | how do i add a holiday closure to hours => Append ; PH off to the regular opening_hours rules.

@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Buildings
+# Source: https://wiki.openstreetmap.org/wiki/Buildings
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+how do i tag an unknown building type | what if a building type is unclear | i can see a building but cannot identify its type | which basic tag marks a building => Use building=yes when a more specific building type is unknown.
+is building the current business type | does building describe its tenant | does a new shop change the type of its building | what does the building tag classify => It describes the building itself, not its current occupant or business.
+how do i tag a house building | what building value means house | what tag fits a structure built as a house | which tag describes a house structure => Use building=house.
+where do building entrance nodes go | how do i place a building entrance | how do i position a door on the map | where should i map an entrance node => Place a node on the building outline and add entrance tags.
+should adjacent houses share an outline | how do i map terraced houses | two houses share a wall how do i draw them | can distinct terraced buildings be separate => Map distinct buildings separately, sharing nodes along common walls.

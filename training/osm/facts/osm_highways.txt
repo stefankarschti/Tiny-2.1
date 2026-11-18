@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Key:highway
+# Source: https://wiki.openstreetmap.org/wiki/Key:highway
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what does highway describe in osm | is highway only for motorways | does highway cover paths as well as streets | which features use the highway key => Roads, streets, paths and related transport features.
+how do i tag a service road | which highway value fits a service road | what do i tag the access road into a car park | what tag describes a car park access road => Use highway=service and add details such as service or access.
+how do i tag a farm track | what tag fits a forestry track | how do i classify a road serving forestry | which highway value is for agricultural tracks => Use highway=track for roads mainly serving farming or forestry.
+is every unpaved road a track | does gravel mean highway=track | does a dirt road always count as a track | should highway=track describe road surface => No. Track describes use; surface describes the ground material.
+how do i tag outdoor stairs | which highway tag means stairs | how do i map a staircase on a path | what tag represents a flight of steps => Use highway=steps.

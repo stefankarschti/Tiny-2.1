@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Good_practice
+# Source: https://wiki.openstreetmap.org/wiki/Good_practice
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+should i guess missing osm details | can i invent missing map data | can i add a detail that i only suspect | what if i cannot verify an osm detail => Verify it first; map observable facts rather than guesses.
+should i redraw an existing osm object | delete and redraw an osm feature | how do i update a feature without losing history | how do i preserve an osm object history => Edit the existing object where possible to preserve its history.
+should i align imagery before tracing | is aerial imagery always aligned | what if the aerial photo is shifted | what should i check before tracing imagery => Check imagery alignment against reliable ground data or GPS traces.
+can i copy google maps into osm | may i trace google maps for osm | may i use street details copied from google maps | is google maps a source for osm edits => No. Use your own observations or sources permitted for OSM.
+can old imagery override a recent survey | should i trust old aerial photos | should an old aerial image outweigh recent edits | what if imagery conflicts with recent mapping => Check dates and object history; imagery may be older than the map.

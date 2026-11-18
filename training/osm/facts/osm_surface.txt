@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Key:surface
+# Source: https://wiki.openstreetmap.org/wiki/Key:surface
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what does surface describe in osm | which key records ground material | how can i describe what a path is made of | what is the purpose of the surface tag => It describes the physical surface material of a feature.
+how do i tag an asphalt road surface | which tag says a road is asphalt | what value means the road is asphalted | what surface value is used for asphalt => Use surface=asphalt.
+how do i tag paving blocks | what tag describes paving stones | the path is laid with paving blocks | which surface value fits flat paving blocks => Use surface=paving_stones.
+should i use paved when i know the material | paved or asphalt when known | i know the paving material should i specify it | is a specific surface better than paved => Prefer the known material, such as asphalt, over generic paved.
+does missing surface mean paved | is there a default surface value | does a missing material tag imply asphalt | should i assume an untagged road is paved => No. There is no universal default surface value.

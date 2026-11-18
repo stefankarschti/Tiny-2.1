@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Addresses
+# Source: https://wiki.openstreetmap.org/wiki/Addresses
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+which key stores a house number | how do i tag an osm house number | where do i put the number on the door | what tag records a building number => Use addr:housenumber.
+which key stores an address street | how do i tag the street in an address | how can i record the street part of an address | what osm key records the address road name => Use addr:street.
+can i put an address on a building | where can address tags be placed | can a building outline carry address details | must every osm address be a separate node => No. Addresses can be on a building, entrance or separate address node.
+where do entrance specific addresses go | how do i tag separately numbered doors | my building has a different number on each door | what if each entrance has its own address => Put each address on its entrance node, following local practice.
+is there one rule for multiple house numbers | how do i map several building addresses | is there a universal scheme for several addresses | are multiple house numbers mapped uniformly => No global rule fits all cases; follow the local address convention.

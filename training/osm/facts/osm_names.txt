@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Key:name
+# Source: https://wiki.openstreetmap.org/wiki/Key:name
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what goes in an osm name tag | what is name used for in osm | which local name belongs on a feature | which name should i put in name => Usually the prominent signed name or the common local-language name.
+how do i tag an english name | which key stores an english name | how can i record the english version of a name | what osm key records a name in english => Use name:en for an English name.
+how do i tag an alternative name | which key stores another known name | what if people know a place by a second name | where does an alternate feature name go => Use alt_name for another name the feature is known by.
+should i use name_1 for another name | is name_2 good for alternate names | are numbered keys good for extra names | how should i replace name_1 tagging => Use a suitable name key, such as alt_name, instead.
+is name=fixme a valid feature name | can i put fixme in the name tag | should uncertainty appear as the name itself | how should i mark an uncertain name => Use fixme to explain the uncertainty, not name=fixme.

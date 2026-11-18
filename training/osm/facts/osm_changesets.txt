@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Changeset
+# Source: https://wiki.openstreetmap.org/wiki/Changeset
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what is an osm changeset | define a changeset | what bundles my edits when i upload | what groups edits in an osm session => A changeset groups map edits from an editing session.
+should changesets cover distant places | how local should a changeset be | should edits in two faraway towns go together | should i mix distant cities in one changeset => Keep changesets local; save before moving to a distant area.
+should related edits share a changeset | one changeset for every house | can i upload nearby related fixes together | how should similar nearby edits be grouped => Group similar nearby edits together so others can review them.
+where can i discuss an osm edit | how do i ask about a changeset | how do i ask someone about their map changes | where can mappers discuss a changeset => Use the public discussion on that changeset's page.
+where can i see recent osm changesets | how do i view local edit history | how do i find edits people made around here | which osm website feature lists local edits => Use History on openstreetmap.org for the area you are viewing.

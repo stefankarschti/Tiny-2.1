@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Key:tunnel
+# Source: https://wiki.openstreetmap.org/wiki/Key:tunnel
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what does tunnel describe in osm | which way gets the tunnel tag | which object gets tagged inside a tunnel | what feature uses the tunnel key => The road, railway or waterway running through a tunnel.
+is an open cutting a tunnel | should an open topped cutting use tunnel | what if the road is in a trench open to the sky | how do i tag a road in an open cutting => Use cutting=yes for an open cutting, not tunnel=yes.
+how do i tag lighting in a tunnel | which key records tunnel lighting | how do i record whether a tunnel has lights | what tag says whether a tunnel is lit => Use lit=yes or lit=no on the way, according to observation.
+how do i tag a building passage | which tunnel value fits a building passage | the way goes through a building what tag fits | what tag describes a way through a building => Use tunnel=building_passage where the way passes through a building.
+does every building passage need a layer | always set layer on building passages | when would a building passage require layer | must tunnel=building_passage have layer => Usually no; add layer only when overlapping passages need ordering.

@@ -70,7 +70,11 @@ python3 train2.py export more.pt TINY.BIN         # TINY.EXE reads the new file
 Add your own facts to `training/facts/` (format in `training/TRAINING.TXT`).
 Exporting `tiny2.pt` unchanged gives exactly the released `TINY.BIN`.
 
+An optional OpenStreetMap mapping, editing, and tagging dataset is kept
+separately in [`training/osm/`](training/osm/README.md), with wiki sources,
+attribution, and instructions for an isolated training experiment.
+
 ## Licence
 
-Code: MIT (`LICENSE`). Three data files derived from public datasets keep
+Code: MIT (`LICENSE`). Data derived from public datasets and the OSM Wiki keeps
 their own licences (ODbL and CC BY-SA); see `DATA_LICENSES.md`.

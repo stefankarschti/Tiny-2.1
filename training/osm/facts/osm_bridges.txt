@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Key:bridge
+# Source: https://wiki.openstreetmap.org/wiki/Key:bridge
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what does bridge describe in osm | what does the bridge key indicate | do i tag the way above or below a bridge | which way carries the bridge property => It marks the way that runs on a bridge.
+which layer is typical for a simple bridge | layer for a bridge over a ground road | what layer fits a bridge above ground level | what layer usually fits a simple overpass => Usually layer=1; use other values when the crossing needs them.
+where do bridge weight limits go | how do i tag a bridge weight limit | how do i record a signed bridge load limit | which way gets a bridge maxweight tag => Put maxweight on the way crossing the bridge.
+what tag maps the bridge outline | how do i tag a bridge area | how do i draw the footprint of a bridge | which tag represents the bridge structure area => Use man_made=bridge for the bridge outline.
+where does a road name go on a bridge | does bridge:name replace the street name | the street and its bridge have different names | how do i name the road crossing a bridge => Keep name for the signed road name; bridge:name can name the bridge.

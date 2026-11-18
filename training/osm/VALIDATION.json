@@ -1,0 +1,13 @@
+{
+  "validated_on": "2026-11-18",
+  "fact_files": 21,
+  "facts": 1889,
+  "documented_tag_definitions": 1789,
+  "original_mapping_facts": 100,
+  "training_phrasings": 7456,
+  "held_back_phrasings": 1889,
+  "fixed_comparison_questions": 100,
+  "max_question_characters": 69,
+  "max_sequence_length": 128,
+  "frozen_questions_and_references_match_prior_run": true
+}

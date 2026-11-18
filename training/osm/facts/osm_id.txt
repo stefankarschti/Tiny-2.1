@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: ID
+# Source: https://wiki.openstreetmap.org/wiki/ID
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what is the id editor | where does osm id run | which osm editor works in my browser | is id a browser based osm editor => iD is an OpenStreetMap editor that runs in a web browser.
+how do i open id | start editing osm in id | how do i start editing with id on the website | where can i launch the id editor => Zoom in on openstreetmap.org and choose iD from the Edit menu.
+does id have a tutorial | where is the id walkthrough | does id let me practise editing | how can i learn the id editor => Open the interactive walkthrough using iD's Help button.
+can id change osm tags | does id support editing tags | can i update an existing object in id with new tags | can i edit feature tags in id => Yes. iD can edit tags on existing map objects.
+does id check editing problems | can id validate my edits | where does id flag possible mistakes | does the id editor include validation => Yes. Its issue manager flags potential mapping problems.
