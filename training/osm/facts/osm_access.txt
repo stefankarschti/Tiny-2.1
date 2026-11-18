@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Key:access
+# Source: https://wiki.openstreetmap.org/wiki/Key:access
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what does access mean in osm | what does the access tag describe | who may legally use this path | is access about legal permission => Access tags describe permission to use a feature.
+which tag controls access on foot | how do i tag pedestrian permission | where do i record pedestrian access rights | what key is for walking access => Use foot to describe pedestrian access.
+how do i ban motor vehicles in osm | tag no motor vehicle access | cars and motorcycles are forbidden here | which tag forbids motor vehicles only => Use motor_vehicle=no; check other modes separately.
+can foot override general access | does a specific access tag take priority | walking is allowed despite a general access ban | what overrides access=no for walking => A specific tag such as foot=yes overrides the general access value.
+is access=yes proof a road is passable | does permission mean physical access | can a permitted route still be impassable | can legal access guarantee a usable road => No. Legal permission and physical usability are different.

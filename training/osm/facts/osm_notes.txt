@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Notes
+# Source: https://wiki.openstreetmap.org/wiki/Notes
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+how can i report an osm map error | report a problem without editing osm | how can i tell mappers something is missing here | how do i flag a missing feature on osm => Add a map note at the location and describe the problem.
+where do i show osm notes | how do i display notes on the map | where can i turn on the map notes overlay | how can i enable the osm notes layer => Open the map's layer selector and enable Notes.
+can i comment on an osm note | how do i clarify a map note | can i leave a reply on a map note | can i add information to an existing note => Open the note and add a comment with useful details.
+when should i resolve an osm note | close a note after fixing the map | i fixed the problem should i close its note | when is a map error note resolved => Resolve it after the reported problem is fixed or shown to be invalid.
+should i trust every osm note | is a note enough evidence for an edit | should i check a note before editing | can an osm note contain wrong information => Check other evidence and context; notes can be mistaken or misleading.

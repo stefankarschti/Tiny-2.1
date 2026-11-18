@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Elements
+# Source: https://wiki.openstreetmap.org/wiki/Elements
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what is a node in osm | define an osm node | which osm element has point coordinates | what does an osm node represent => A point located by latitude and longitude.
+what is a way in osm | define an osm way | what geometry joins several nodes in order | what does an osm way contain => An ordered sequence of nodes forming a line or area boundary.
+what is a relation in osm | define an osm relation | how can i group map objects with roles | why use an osm relation => It groups related nodes, ways or relations, with optional member roles.
+what is an osm tag | define a tag in osm | how does osm store an attribute | what are the parts of an osm tag => A key and a value describing an element, such as highway=residential.
+is every closed way an area | are all closed osm ways areas | does closing a way always make a polygon | can a closed way represent a line => No. A closed way may be a loop; its tags determine its meaning.

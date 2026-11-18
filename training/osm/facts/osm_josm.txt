@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: JOSM
+# Source: https://wiki.openstreetmap.org/wiki/JOSM
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what does josm stand for | expand josm | what words make up the acronym josm | what is the full name of josm => Java OpenStreetMap Editor.
+is josm a desktop editor | where does josm run | do i install josm on my computer | is josm a web browser application => JOSM is a desktop application for editing OpenStreetMap.
+can josm edit offline | does josm need constant internet | can i work in josm while disconnected | can downloaded osm data be edited offline => Yes, JOSM can edit downloaded data offline; uploading needs a connection.
+can josm use plugins | how can i extend josm | how do i give josm extra capabilities | does josm support extensions => Yes. Plugins add extra tools and features.
+where is josm help | how do i get help in josm | how do i bring up context help in josm | what key opens the josm manual => Press F1 for context-sensitive help.

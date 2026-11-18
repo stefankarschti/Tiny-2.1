@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Key:source
+# Source: https://wiki.openstreetmap.org/wiki/Key:source
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what does source record in osm | why add a source tag | why identify the evidence for an osm change | what information belongs in source => It records where the information used for an edit came from.
+where should i usually record my edit source | source on object or changeset | where do i credit the source when uploading | where do modern editors request source details => Usually on the changeset when uploading edits.
+what source value means a field survey | how do i record my own survey | i visited the location how do i credit that | which source tag indicates on site observation => Use source=survey.
+should i remove all old object source tags | are source tags on objects forbidden | should old source tags on features be stripped | must existing object source tags be deleted => No. Object source tags still exist; do not remove them indiscriminately.
+should i record a source used before | repeat a source from an earlier changeset | my evidence is the same do i still cite it | must i name my source again on a new edit => Yes. State the source of your changes even if it was used before.

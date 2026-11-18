@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Key:oneway
+# Source: https://wiki.openstreetmap.org/wiki/Key:oneway
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+how do i tag a one way road | what tag marks a one way street | vehicles follow the way in only one direction | which tag records one way traffic => Use oneway=yes, with the way drawn in the permitted direction.
+what does oneway=-1 mean | explain reverse oneway tagging | traffic moves against the direction i drew | which direction does oneway=-1 allow => Travel is permitted opposite to the way's drawn direction.
+what does oneway=no mean | explain oneway=no | which value explicitly allows both directions | how do i explicitly tag a two way road => oneway=no explicitly states that the way is not one-way.
+what if only part of a road is one way | one way restriction on part of a way | only half this street has a one way restriction | how do i tag a partly one way street => Split the way where the restriction changes and tag each section.
+how do i tag a bicycle oneway exception | bikes allowed both ways on a one way | cyclists may go against traffic how do i tag that | what tag exempts bikes from one way traffic => Add oneway:bicycle=no where bicycles may travel both directions.

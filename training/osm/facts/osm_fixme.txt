@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Key:fixme
+# Source: https://wiki.openstreetmap.org/wiki/Key:fixme
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+what is fixme used for in osm | why add a fixme tag | how can i flag a suspected tagging mistake | what does an osm fixme indicate => A suspected problem that needs a mapper's attention.
+should a fixme explain the problem | is fixme=yes helpful | what makes a fixme message useful | what should i write in a fixme value => Describe the specific problem or check needed.
+when should i remove a fixme | delete fixme after solving the issue | i fixed the reported issue what about its fixme | should resolved fixme tags stay on objects => Remove the fixme once its task is fully resolved.
+what is the difference between note and fixme | note or fixme for a suspected error | is an editor note the same as a fixme | which tag is for a problem needing attention => Use fixme for suspected errors; note can give general mapper information.
+should fixme repeat automatic warnings | tag fixme for an automatically found error | should i flag what a validator already detects | is fixme needed for machine detectable errors => No. Avoid fixmes for issues that validation tools already detect.

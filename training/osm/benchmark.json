@@ -1,0 +1,502 @@
+[
+  {
+    "topic": "osm_access",
+    "question": "is access about legal permission",
+    "reference": "Access tags describe permission to use a feature."
+  },
+  {
+    "topic": "osm_access",
+    "question": "what key is for walking access",
+    "reference": "Use foot to describe pedestrian access."
+  },
+  {
+    "topic": "osm_access",
+    "question": "which tag forbids motor vehicles only",
+    "reference": "Use motor_vehicle=no; check other modes separately."
+  },
+  {
+    "topic": "osm_access",
+    "question": "what overrides access=no for walking",
+    "reference": "A specific tag such as foot=yes overrides the general access value."
+  },
+  {
+    "topic": "osm_access",
+    "question": "can legal access guarantee a usable road",
+    "reference": "No. Legal permission and physical usability are different."
+  },
+  {
+    "topic": "osm_addresses",
+    "question": "what tag records a building number",
+    "reference": "Use addr:housenumber."
+  },
+  {
+    "topic": "osm_addresses",
+    "question": "what osm key records the address road name",
+    "reference": "Use addr:street."
+  },
+  {
+    "topic": "osm_addresses",
+    "question": "must every osm address be a separate node",
+    "reference": "No. Addresses can be on a building, entrance or separate address node."
+  },
+  {
+    "topic": "osm_addresses",
+    "question": "what if each entrance has its own address",
+    "reference": "Put each address on its entrance node, following local practice."
+  },
+  {
+    "topic": "osm_addresses",
+    "question": "are multiple house numbers mapped uniformly",
+    "reference": "No global rule fits all cases; follow the local address convention."
+  },
+  {
+    "topic": "osm_bridges",
+    "question": "which way carries the bridge property",
+    "reference": "It marks the way that runs on a bridge."
+  },
+  {
+    "topic": "osm_bridges",
+    "question": "what layer usually fits a simple overpass",
+    "reference": "Usually layer=1; use other values when the crossing needs them."
+  },
+  {
+    "topic": "osm_bridges",
+    "question": "which way gets a bridge maxweight tag",
+    "reference": "Put maxweight on the way crossing the bridge."
+  },
+  {
+    "topic": "osm_bridges",
+    "question": "which tag represents the bridge structure area",
+    "reference": "Use man_made=bridge for the bridge outline."
+  },
+  {
+    "topic": "osm_bridges",
+    "question": "how do i name the road crossing a bridge",
+    "reference": "Keep name for the signed road name; bridge:name can name the bridge."
+  },
+  {
+    "topic": "osm_buildings",
+    "question": "which basic tag marks a building",
+    "reference": "Use building=yes when a more specific building type is unknown."
+  },
+  {
+    "topic": "osm_buildings",
+    "question": "what does the building tag classify",
+    "reference": "It describes the building itself, not its current occupant or business."
+  },
+  {
+    "topic": "osm_buildings",
+    "question": "which tag describes a house structure",
+    "reference": "Use building=house."
+  },
+  {
+    "topic": "osm_buildings",
+    "question": "where should i map an entrance node",
+    "reference": "Place a node on the building outline and add entrance tags."
+  },
+  {
+    "topic": "osm_buildings",
+    "question": "can distinct terraced buildings be separate",
+    "reference": "Map distinct buildings separately, sharing nodes along common walls."
+  },
+  {
+    "topic": "osm_changesets",
+    "question": "what groups edits in an osm session",
+    "reference": "A changeset groups map edits from an editing session."
+  },
+  {
+    "topic": "osm_changesets",
+    "question": "should i mix distant cities in one changeset",
+    "reference": "Keep changesets local; save before moving to a distant area."
+  },
+  {
+    "topic": "osm_changesets",
+    "question": "how should similar nearby edits be grouped",
+    "reference": "Group similar nearby edits together so others can review them."
+  },
+  {
+    "topic": "osm_changesets",
+    "question": "where can mappers discuss a changeset",
+    "reference": "Use the public discussion on that changeset's page."
+  },
+  {
+    "topic": "osm_changesets",
+    "question": "which osm website feature lists local edits",
+    "reference": "Use History on openstreetmap.org for the area you are viewing."
+  },
+  {
+    "topic": "osm_elements",
+    "question": "what does an osm node represent",
+    "reference": "A point located by latitude and longitude."
+  },
+  {
+    "topic": "osm_elements",
+    "question": "what does an osm way contain",
+    "reference": "An ordered sequence of nodes forming a line or area boundary."
+  },
+  {
+    "topic": "osm_elements",
+    "question": "why use an osm relation",
+    "reference": "It groups related nodes, ways or relations, with optional member roles."
+  },
+  {
+    "topic": "osm_elements",
+    "question": "what are the parts of an osm tag",
+    "reference": "A key and a value describing an element, such as highway=residential."
+  },
+  {
+    "topic": "osm_elements",
+    "question": "can a closed way represent a line",
+    "reference": "No. A closed way may be a loop; its tags determine its meaning."
+  },
+  {
+    "topic": "osm_fixme",
+    "question": "what does an osm fixme indicate",
+    "reference": "A suspected problem that needs a mapper's attention."
+  },
+  {
+    "topic": "osm_fixme",
+    "question": "what should i write in a fixme value",
+    "reference": "Describe the specific problem or check needed."
+  },
+  {
+    "topic": "osm_fixme",
+    "question": "should resolved fixme tags stay on objects",
+    "reference": "Remove the fixme once its task is fully resolved."
+  },
+  {
+    "topic": "osm_fixme",
+    "question": "which tag is for a problem needing attention",
+    "reference": "Use fixme for suspected errors; note can give general mapper information."
+  },
+  {
+    "topic": "osm_fixme",
+    "question": "is fixme needed for machine detectable errors",
+    "reference": "No. Avoid fixmes for issues that validation tools already detect."
+  },
+  {
+    "topic": "osm_highways",
+    "question": "which features use the highway key",
+    "reference": "Roads, streets, paths and related transport features."
+  },
+  {
+    "topic": "osm_highways",
+    "question": "what tag describes a car park access road",
+    "reference": "Use highway=service and add details such as service or access."
+  },
+  {
+    "topic": "osm_highways",
+    "question": "which highway value is for agricultural tracks",
+    "reference": "Use highway=track for roads mainly serving farming or forestry."
+  },
+  {
+    "topic": "osm_highways",
+    "question": "should highway=track describe road surface",
+    "reference": "No. Track describes use; surface describes the ground material."
+  },
+  {
+    "topic": "osm_highways",
+    "question": "what tag represents a flight of steps",
+    "reference": "Use highway=steps."
+  },
+  {
+    "topic": "osm_hours",
+    "question": "what tag stores a shop schedule",
+    "reference": "Use opening_hours on the feature."
+  },
+  {
+    "topic": "osm_hours",
+    "question": "which days does Mo-Fr cover",
+    "reference": "Monday through Friday."
+  },
+  {
+    "topic": "osm_hours",
+    "question": "what tag means open Monday to Friday 9 to 5",
+    "reference": "Use opening_hours=Mo-Fr 09:00-17:00."
+  },
+  {
+    "topic": "osm_hours",
+    "question": "which holidays does PH stand for",
+    "reference": "Public holidays."
+  },
+  {
+    "topic": "osm_hours",
+    "question": "how do i add a holiday closure to hours",
+    "reference": "Append ; PH off to the regular opening_hours rules."
+  },
+  {
+    "topic": "osm_id",
+    "question": "is id a browser based osm editor",
+    "reference": "iD is an OpenStreetMap editor that runs in a web browser."
+  },
+  {
+    "topic": "osm_id",
+    "question": "where can i launch the id editor",
+    "reference": "Zoom in on openstreetmap.org and choose iD from the Edit menu."
+  },
+  {
+    "topic": "osm_id",
+    "question": "how can i learn the id editor",
+    "reference": "Open the interactive walkthrough using iD's Help button."
+  },
+  {
+    "topic": "osm_id",
+    "question": "can i edit feature tags in id",
+    "reference": "Yes. iD can edit tags on existing map objects."
+  },
+  {
+    "topic": "osm_id",
+    "question": "does the id editor include validation",
+    "reference": "Yes. Its issue manager flags potential mapping problems."
+  },
+  {
+    "topic": "osm_josm",
+    "question": "what is the full name of josm",
+    "reference": "Java OpenStreetMap Editor."
+  },
+  {
+    "topic": "osm_josm",
+    "question": "is josm a web browser application",
+    "reference": "JOSM is a desktop application for editing OpenStreetMap."
+  },
+  {
+    "topic": "osm_josm",
+    "question": "can downloaded osm data be edited offline",
+    "reference": "Yes, JOSM can edit downloaded data offline; uploading needs a connection."
+  },
+  {
+    "topic": "osm_josm",
+    "question": "does josm support extensions",
+    "reference": "Yes. Plugins add extra tools and features."
+  },
+  {
+    "topic": "osm_josm",
+    "question": "what key opens the josm manual",
+    "reference": "Press F1 for context-sensitive help."
+  },
+  {
+    "topic": "osm_multipolygons",
+    "question": "how can an osm area exclude an inner area",
+    "reference": "Use a multipolygon relation with outer and inner rings."
+  },
+  {
+    "topic": "osm_multipolygons",
+    "question": "how do i tag a multipolygon relation",
+    "reference": "Use type=multipolygon."
+  },
+  {
+    "topic": "osm_multipolygons",
+    "question": "what does outer mean in a multipolygon",
+    "reference": "The outer role identifies ways forming the area's outside boundary."
+  },
+  {
+    "topic": "osm_multipolygons",
+    "question": "what does inner mean in a multipolygon",
+    "reference": "The inner role identifies ways forming a hole in the area."
+  },
+  {
+    "topic": "osm_multipolygons",
+    "question": "where should tags for the whole area go",
+    "reference": "Put tags describing the whole area on the multipolygon relation."
+  },
+  {
+    "topic": "osm_names",
+    "question": "which name should i put in name",
+    "reference": "Usually the prominent signed name or the common local-language name."
+  },
+  {
+    "topic": "osm_names",
+    "question": "what osm key records a name in english",
+    "reference": "Use name:en for an English name."
+  },
+  {
+    "topic": "osm_names",
+    "question": "where does an alternate feature name go",
+    "reference": "Use alt_name for another name the feature is known by."
+  },
+  {
+    "topic": "osm_names",
+    "question": "how should i replace name_1 tagging",
+    "reference": "Use a suitable name key, such as alt_name, instead."
+  },
+  {
+    "topic": "osm_names",
+    "question": "how should i mark an uncertain name",
+    "reference": "Use fixme to explain the uncertainty, not name=fixme."
+  },
+  {
+    "topic": "osm_notes",
+    "question": "how do i flag a missing feature on osm",
+    "reference": "Add a map note at the location and describe the problem."
+  },
+  {
+    "topic": "osm_notes",
+    "question": "how can i enable the osm notes layer",
+    "reference": "Open the map's layer selector and enable Notes."
+  },
+  {
+    "topic": "osm_notes",
+    "question": "can i add information to an existing note",
+    "reference": "Open the note and add a comment with useful details."
+  },
+  {
+    "topic": "osm_notes",
+    "question": "when is a map error note resolved",
+    "reference": "Resolve it after the reported problem is fixed or shown to be invalid."
+  },
+  {
+    "topic": "osm_notes",
+    "question": "can an osm note contain wrong information",
+    "reference": "Check other evidence and context; notes can be mistaken or misleading."
+  },
+  {
+    "topic": "osm_oneway",
+    "question": "which tag records one way traffic",
+    "reference": "Use oneway=yes, with the way drawn in the permitted direction."
+  },
+  {
+    "topic": "osm_oneway",
+    "question": "which direction does oneway=-1 allow",
+    "reference": "Travel is permitted opposite to the way's drawn direction."
+  },
+  {
+    "topic": "osm_oneway",
+    "question": "how do i explicitly tag a two way road",
+    "reference": "oneway=no explicitly states that the way is not one-way."
+  },
+  {
+    "topic": "osm_oneway",
+    "question": "how do i tag a partly one way street",
+    "reference": "Split the way where the restriction changes and tag each section."
+  },
+  {
+    "topic": "osm_oneway",
+    "question": "what tag exempts bikes from one way traffic",
+    "reference": "Add oneway:bicycle=no where bicycles may travel both directions."
+  },
+  {
+    "topic": "osm_practice",
+    "question": "what if i cannot verify an osm detail",
+    "reference": "Verify it first; map observable facts rather than guesses."
+  },
+  {
+    "topic": "osm_practice",
+    "question": "how do i preserve an osm object history",
+    "reference": "Edit the existing object where possible to preserve its history."
+  },
+  {
+    "topic": "osm_practice",
+    "question": "what should i check before tracing imagery",
+    "reference": "Check imagery alignment against reliable ground data or GPS traces."
+  },
+  {
+    "topic": "osm_practice",
+    "question": "is google maps a source for osm edits",
+    "reference": "No. Use your own observations or sources permitted for OSM."
+  },
+  {
+    "topic": "osm_practice",
+    "question": "what if imagery conflicts with recent mapping",
+    "reference": "Check dates and object history; imagery may be older than the map."
+  },
+  {
+    "topic": "osm_sources",
+    "question": "what information belongs in source",
+    "reference": "It records where the information used for an edit came from."
+  },
+  {
+    "topic": "osm_sources",
+    "question": "where do modern editors request source details",
+    "reference": "Usually on the changeset when uploading edits."
+  },
+  {
+    "topic": "osm_sources",
+    "question": "which source tag indicates on site observation",
+    "reference": "Use source=survey."
+  },
+  {
+    "topic": "osm_sources",
+    "question": "must existing object source tags be deleted",
+    "reference": "No. Object source tags still exist; do not remove them indiscriminately."
+  },
+  {
+    "topic": "osm_sources",
+    "question": "must i name my source again on a new edit",
+    "reference": "Yes. State the source of your changes even if it was used before."
+  },
+  {
+    "topic": "osm_speed",
+    "question": "is maxspeed a recommended driving speed",
+    "reference": "It records the legal maximum speed, not a suggested speed."
+  },
+  {
+    "topic": "osm_speed",
+    "question": "does maxspeed default to km/h",
+    "reference": "Without a unit, maxspeed is in kilometres per hour."
+  },
+  {
+    "topic": "osm_speed",
+    "question": "what tag means a speed limit of 30 mph",
+    "reference": "Use maxspeed=30 mph, including the unit."
+  },
+  {
+    "topic": "osm_speed",
+    "question": "does maxspeed=none mean the speed is unknown",
+    "reference": "It means no fixed numeric speed limit, not an unknown limit."
+  },
+  {
+    "topic": "osm_speed",
+    "question": "how do i tag an unknown speed limit",
+    "reference": "Leave maxspeed unset until the limit is verified."
+  },
+  {
+    "topic": "osm_surface",
+    "question": "what is the purpose of the surface tag",
+    "reference": "It describes the physical surface material of a feature."
+  },
+  {
+    "topic": "osm_surface",
+    "question": "what surface value is used for asphalt",
+    "reference": "Use surface=asphalt."
+  },
+  {
+    "topic": "osm_surface",
+    "question": "which surface value fits flat paving blocks",
+    "reference": "Use surface=paving_stones."
+  },
+  {
+    "topic": "osm_surface",
+    "question": "is a specific surface better than paved",
+    "reference": "Prefer the known material, such as asphalt, over generic paved."
+  },
+  {
+    "topic": "osm_surface",
+    "question": "should i assume an untagged road is paved",
+    "reference": "No. There is no universal default surface value."
+  },
+  {
+    "topic": "osm_tunnels",
+    "question": "what feature uses the tunnel key",
+    "reference": "The road, railway or waterway running through a tunnel."
+  },
+  {
+    "topic": "osm_tunnels",
+    "question": "how do i tag a road in an open cutting",
+    "reference": "Use cutting=yes for an open cutting, not tunnel=yes."
+  },
+  {
+    "topic": "osm_tunnels",
+    "question": "what tag says whether a tunnel is lit",
+    "reference": "Use lit=yes or lit=no on the way, according to observation."
+  },
+  {
+    "topic": "osm_tunnels",
+    "question": "what tag describes a way through a building",
+    "reference": "Use tunnel=building_passage where the way passes through a building."
+  },
+  {
+    "topic": "osm_tunnels",
+    "question": "must tunnel=building_passage have layer",
+    "reference": "Usually no; add layer only when overlapping passages need ordering."
+  }
+]

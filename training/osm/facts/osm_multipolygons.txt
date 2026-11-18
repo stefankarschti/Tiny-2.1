@@ -1,0 +1,9 @@
+# Adapted from OpenStreetMap Wiki contributors: Relation:multipolygon
+# Source: https://wiki.openstreetmap.org/wiki/Relation:multipolygon
+# Accessed: 2026-11-17. License: CC BY-SA 2.0. See ../LICENSE.md.
+# First three questions are training phrasings; the final phrasing is held out.
+how do i map an area with a hole | what represents a polygon with holes | how can i draw a lake around an island | how can an osm area exclude an inner area => Use a multipolygon relation with outer and inner rings.
+what tag defines a multipolygon | which relation type is a multipolygon | which type tag creates a multipolygon | how do i tag a multipolygon relation => Use type=multipolygon.
+what is an outer multipolygon member | which role marks the outside boundary | which role goes on the external ring | what does outer mean in a multipolygon => The outer role identifies ways forming the area's outside boundary.
+what is an inner multipolygon member | which role marks a hole | what role do i give a courtyard hole | what does inner mean in a multipolygon => The inner role identifies ways forming a hole in the area.
+where do multipolygon feature tags go | tag the outer way or the relation | who owns the tags describing a multipolygon area | where should tags for the whole area go => Put tags describing the whole area on the multipolygon relation.

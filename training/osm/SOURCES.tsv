@@ -1,0 +1,21 @@
+file	wiki_page	url	contributors_history_url	accessed	license
+facts/osm_elements.txt	Elements	https://wiki.openstreetmap.org/wiki/Elements	https://wiki.openstreetmap.org/w/index.php?title=Elements&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_practice.txt	Good practice	https://wiki.openstreetmap.org/wiki/Good_practice	https://wiki.openstreetmap.org/w/index.php?title=Good_practice&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_id.txt	ID	https://wiki.openstreetmap.org/wiki/ID	https://wiki.openstreetmap.org/w/index.php?title=ID&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_josm.txt	JOSM	https://wiki.openstreetmap.org/wiki/JOSM	https://wiki.openstreetmap.org/w/index.php?title=JOSM&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_changesets.txt	Changeset	https://wiki.openstreetmap.org/wiki/Changeset	https://wiki.openstreetmap.org/w/index.php?title=Changeset&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_notes.txt	Notes	https://wiki.openstreetmap.org/wiki/Notes	https://wiki.openstreetmap.org/w/index.php?title=Notes&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_names.txt	Key:name	https://wiki.openstreetmap.org/wiki/Key:name	https://wiki.openstreetmap.org/w/index.php?title=Key%3Aname&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_highways.txt	Key:highway	https://wiki.openstreetmap.org/wiki/Key:highway	https://wiki.openstreetmap.org/w/index.php?title=Key%3Ahighway&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_access.txt	Key:access	https://wiki.openstreetmap.org/wiki/Key:access	https://wiki.openstreetmap.org/w/index.php?title=Key%3Aaccess&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_oneway.txt	Key:oneway	https://wiki.openstreetmap.org/wiki/Key:oneway	https://wiki.openstreetmap.org/w/index.php?title=Key%3Aoneway&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_speed.txt	Key:maxspeed	https://wiki.openstreetmap.org/wiki/Key:maxspeed	https://wiki.openstreetmap.org/w/index.php?title=Key%3Amaxspeed&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_surface.txt	Key:surface	https://wiki.openstreetmap.org/wiki/Key:surface	https://wiki.openstreetmap.org/w/index.php?title=Key%3Asurface&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_buildings.txt	Buildings	https://wiki.openstreetmap.org/wiki/Buildings	https://wiki.openstreetmap.org/w/index.php?title=Buildings&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_addresses.txt	Addresses	https://wiki.openstreetmap.org/wiki/Addresses	https://wiki.openstreetmap.org/w/index.php?title=Addresses&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_hours.txt	Key:opening hours	https://wiki.openstreetmap.org/wiki/Key:opening_hours	https://wiki.openstreetmap.org/w/index.php?title=Key%3Aopening_hours&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_multipolygons.txt	Relation:multipolygon	https://wiki.openstreetmap.org/wiki/Relation:multipolygon	https://wiki.openstreetmap.org/w/index.php?title=Relation%3Amultipolygon&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_bridges.txt	Key:bridge	https://wiki.openstreetmap.org/wiki/Key:bridge	https://wiki.openstreetmap.org/w/index.php?title=Key%3Abridge&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_tunnels.txt	Key:tunnel	https://wiki.openstreetmap.org/wiki/Key:tunnel	https://wiki.openstreetmap.org/w/index.php?title=Key%3Atunnel&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_fixme.txt	Key:fixme	https://wiki.openstreetmap.org/wiki/Key:fixme	https://wiki.openstreetmap.org/w/index.php?title=Key%3Afixme&action=history	2026-11-17	CC-BY-SA-2.0
+facts/osm_sources.txt	Key:source	https://wiki.openstreetmap.org/wiki/Key:source	https://wiki.openstreetmap.org/w/index.php?title=Key%3Asource&action=history	2026-11-17	CC-BY-SA-2.0
